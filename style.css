@@ -29,6 +29,9 @@ button {
   padding: 1rem 3rem;
   border-radius: 10px;
   border-style: none;
+  font-size: 1.5rem;
+  color: mediumturquoise;
+  background-color: purple;
 }
 .header {
   margin-top: 3%;
@@ -42,4 +45,17 @@ button {
   max-width: 550px;
   padding-left: 3rem;
   padding: 2rem;
+}
+.text {
+  margin: 1rem 0 1rem 0;
+}
+.agree-div {
+  display: none;
+  position: absolute;
+  margin: 0 10% 0 50%;
+}
+.disagree-div {
+  display: none;
+  position: absolute;
+  margin: 0 10%0 50%;
 }
