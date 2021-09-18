@@ -26,10 +26,10 @@ form.addEventListener("submit", function onSubmit(e) {
     console.log(counter);
   }
   if (counter % Number(luckyInput.value)) {
-    disagreeDiv.style.display = "block";
-    agreeDiv.style.display = "none";
-  } else {  
     agreeDiv.style.display = "block";
     disagreeDiv.style.display = "none";
+  } else {  
+    disagreeDiv.style.display = "block";
+    agreeDiv.style.display = "none";
   }
 });
